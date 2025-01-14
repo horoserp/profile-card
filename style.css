@@ -93,14 +93,14 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 400;
   color: var(--Dark-grayish-blue);
 }
 
 h3 {
   font-size: 16px;
-  font-weight: 700;
-  color: var(--Dark-gray);
+  font-weight: 400;
+  color: var(--Dark-grayish-blue);
 }
 
 hr {
@@ -121,8 +121,8 @@ h4 {
 h5 {
   font-size: 10px;
   font-weight: 400;
-  color: var(--Dark-gray);
-  letter-spacing: 2px;
+  color: var(--Dark-grayish-blue);
+  letter-spacing: 1.5px;
   margin-bottom: 25px;
 }
 
