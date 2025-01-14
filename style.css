@@ -28,6 +28,21 @@ html {
 
 body {
   font-family: "Main";
+  /* background: var(--Dark-cyan) url("./assets/images/bg-pattern-top.svg")
+    no-repeat left top; */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  width: 348px;
+  height: 374px;
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
