@@ -28,6 +28,7 @@ html {
 
 body {
   font-family: "Main";
+  background-color: var(--Dark-cyan);
   /* background: var(--Dark-cyan) url("./assets/images/bg-pattern-top.svg")
     no-repeat left top; */
 }
@@ -41,8 +42,32 @@ body {
 
 .card {
   display: flex;
-  width: 348px;
+  flex-direction: column;
+  width: 350px;
   height: 374px;
+}
+
+.background {
+  width: 350px;
+  height: 140px;
+}
+
+.background img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-content {
+  position: relative;
+  background-color: white;
+}
+
+.card-content img {
+  position: absolute;
+  top: -53px;
+  left: 121px;
+  border: 5px solid white;
+  border-radius: 50%;
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
