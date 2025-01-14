@@ -58,8 +58,13 @@ body {
 }
 
 .card-content {
+  display: flex;
+  flex-direction: column;
   position: relative;
   background-color: white;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  text-align: center;
 }
 
 .card-content img {
@@ -68,6 +73,18 @@ body {
   left: 121px;
   border: 5px solid white;
   border-radius: 50%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
