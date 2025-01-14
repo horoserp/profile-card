@@ -21,14 +21,14 @@
       "sizes": "1440x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Desktop Rating Component"
+      "label": "Profile Card Component"
     },
     {
       "src": "https://horoserp.github.io/profile-card/assets/images/mobile-design.jpg",
         "sizes": "375x667",
         "type": "image/png",
         "form_factor": "narrow",
-        "label": "Mobile Rating Component"
+        "label": "Profile Card Component"
       }
     ],
   "theme_color": "#ffffff",
