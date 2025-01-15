@@ -137,10 +137,6 @@ h5 {
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  body {
-    background-position: 125% 180%, -25% -90%;
-  }
-
   .card,
   .background {
     width: 320px;
