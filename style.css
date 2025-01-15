@@ -55,6 +55,8 @@ body {
 }
 
 .background img {
+  width: inherit;
+  height: inherit;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
@@ -131,6 +133,14 @@ h5 {
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .card,
+  .background {
+    width: 320px;
+  }
+
+  .card-content img {
+    left: 107px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
