@@ -31,7 +31,8 @@ body {
   background-color: var(--Dark-cyan);
   background-image: url("./assets/images/bg-pattern-top.svg"),
     url("./assets/images/bg-pattern-bottom.svg");
-  background-position: -60% 200%, 150% -150%;
+  /* background-position: -60% 200%, 150% -150%; */
+  background-position: right 51.5vw bottom 35vh, left 49vw top 52vh;
   background-repeat: no-repeat, no-repeat;
 }
 
