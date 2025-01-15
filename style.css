@@ -29,8 +29,10 @@ html {
 body {
   font-family: "Main";
   background-color: var(--Dark-cyan);
-  /* background: var(--Dark-cyan) url("./assets/images/bg-pattern-top.svg")
-    no-repeat left top; */
+  background-image: url("./assets/images/bg-pattern-top.svg"),
+    url("./assets/images/bg-pattern-bottom.svg");
+  background-position: -60% 200%, 150% -150%;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .flex-container {
